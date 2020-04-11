@@ -14,6 +14,7 @@ set(Headers
 		${currentDir}/Game.hpp
 		${currentDir}/EscapeMenu.hpp
 		${currentDir}/InputMap.hpp
+		${currentDir}/InputQueue.hpp
 
 		${currentDir}/DebugOverlay.hpp
 		${currentDir}/GameTools.hpp

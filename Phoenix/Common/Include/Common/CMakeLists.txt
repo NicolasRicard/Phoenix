@@ -7,16 +7,17 @@ set(Headers
 		${voxelHeaders}
 
 		${currentDir}/CoreIntrinsics.hpp
-		${currentDir}/EnumTools.hpp
-		${currentDir}/Singleton.hpp
-		${currentDir}/FileIO.hpp
-		${currentDir}/Logger.hpp
+        ${currentDir}/EnumTools.hpp
+        ${currentDir}/Singleton.hpp
+        ${currentDir}/FileIO.hpp
+        ${currentDir}/Logger.hpp
 
-		${currentDir}/ContentLoader.hpp
-		${currentDir}/Settings.hpp
-		${currentDir}/Commander.hpp
-		${currentDir}/Position.hpp
-		${currentDir}/Movement.hpp
+        ${currentDir}/ContentLoader.hpp
+        ${currentDir}/Settings.hpp
+        ${currentDir}/Commander.hpp
+        ${currentDir}/Position.hpp
+        ${currentDir}/Movement.hpp
+        ${currentDir}/Input.hpp
 
-		PARENT_SCOPE
-		)
+        PARENT_SCOPE
+        )

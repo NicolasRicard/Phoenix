@@ -12,6 +12,7 @@ set(Sources
 		${currentDir}/Game.cpp
 		${currentDir}/EscapeMenu.cpp
 		${currentDir}/InputMap.cpp
+		${currentDir}/InputQueue.cpp
 
 		${currentDir}/DebugOverlay.cpp
 		${currentDir}/GameTools.cpp

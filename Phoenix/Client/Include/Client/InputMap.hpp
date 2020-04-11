@@ -31,7 +31,7 @@
 #include <Client/Events/Event.hpp>
 #include <Client/Events/IEventListener.hpp>
 
-#include <Common/Singleton.hpp>
+#include <Common/Input.hpp>
 
 #include <functional>
 #include <string>
@@ -175,5 +175,8 @@ namespace phx::client
 
 		// remember, input ref is just an int.
 		std::unordered_map<InputRef, std::function<void()>> m_callbacks;
+
+		std::unordered_map<InputRef, events::Keys> m_keyMap;
+		std::unordered_map<InputRef, events::Keys> m_defaultKey;
 	};
 } // namespace phx::client
